@@ -1,0 +1,642 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="follow, index">
+    <title>Blumgi Ball - AulaPlay</title>
+    <meta name="description" content="Play Blumgi Ball online and aim your shots through colorful physics levels, bounce the ball off walls, and hit every target.">
+    <link rel="canonical" href="https://aulaplay.local/games/blumgi-ball/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Blumgi Ball">
+    <meta property="og:description" content="Play Blumgi Ball online and aim your shots through colorful physics levels, bounce the ball off walls, and hit every target.">
+    <meta property="og:url" content="https://aulaplay.local/games/blumgi-ball/">
+    <meta property="og:site_name" content="AulaPlay">
+    <meta property="og:image" content="/assets/images/aulaplay-logo.svg">
+    <meta property="og:image:width" content="200">
+    <meta property="og:image:height" content="200">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/aulaplay-redesign.css">
+    <link rel="shortcut icon" href="/assets/images/aulaplay-icon.svg">
+
+<script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202611120201/pubads_impl_page_level_ads.js"></script><script async="" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" type="text/javascript"></script>
+<script type="text/javascript">
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+      
+                googletag.defineSlot('/22996301119/aulaplay.local/aulaplay.local_desktop_main_top', [[300, 250], [728, 90]], 'div-gpt-ad-1794480050212-0').addService(googletag.pubads());
+                googletag.defineSlot('/22996301119/aulaplay.local/aulaplay.local_desktop_right_side_top', [300, 250], 'div-gpt-ad-1794480308900-0').addService(googletag.pubads());
+                googletag.defineOutOfPageSlot('/22996301119/aulaplay.local/aulaplay.local_desktop_interstitial', googletag.enums.OutOfPageFormat.INTERSTITIAL)
+                 .addService(googletag.pubads());
+                googletag.defineOutOfPageSlot('/22996301119/aulaplay.local/aulaplay.local_desktop_bottom_anchor', googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR)
+                 .addService(googletag.pubads());
+    
+    googletag.pubads().enableLazyLoad({
+      fetchMarginPercent: 0,
+      renderMarginPercent: 0,
+      mobileScaling: 1.0
+    });
+    
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+
+  });
+  </script>
+
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-1L7Q60K55C" type="text/javascript"></script>
+<script type="text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1L7Q60K55C');
+</script>
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script src="https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202611120201/pubads_impl.js" async="" fetchpriority="high"></script><link href="https://securepubads.g.doubleclick.net/pagead/managed/dict/m202611100101/gpt" rel="compression-dictionary"></head>
+<body>
+    <header class="header">
+        <div class="header-container">
+
+                <h1>
+    <a href="/" aria-label="AulaPlay, portal independiente de juegos y aprendizaje" style="display: flex; align-items: center; text-decoration: none;">
+        <img src="/assets/images/aulaplay-logo.svg" alt="AulaPlay" style="max-height: 42px; width: 184px; display: block;">
+    </a>
+</h1>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="/" class="nav-link" data-nav="home">Home</a></li>
+                    <li><a href="/action-games/" class="nav-link" data-nav="new">Action</a></li>
+                    <li><a href="/adventure-games/" class="nav-link" data-nav="popular">Adventure</a></li>
+                    <li><a href="/sports-games/" class="nav-link" data-nav="popular">Sports</a></li>
+                    <li><a href="/2-player-games/" class="nav-link" data-nav="popular">2 Player</a></li>
+                    <li><a href="/io-games/" class="nav-link" data-nav="popular">.IO Games</a></li>
+                    <li><a href="/minecraft/" class="nav-link" data-nav="popular">Minecraft</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-controls">
+                <div class="header-btn" id="favoritesHeaderBtn" title="Favorite Games" style="position: relative;">
+                    <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                    <span class="favorites-count" id="favoritesCount" style="display: none;">0</span>
+                    
+                    <div class="favorites-dropdown" id="favoritesDropdown">
+                        <div class="favorites-dropdown-header">Favorite Games</div>
+                        <div class="favorites-dropdown-list" id="favoritesDropdownList"><div class="favorites-dropdown-empty">No favorite games yet.</div></div>
+                    </div>
+                </div>
+
+                <div class="header-btn" id="themeToggleBtn" title="Toggle Dark/Light Mode">
+                    <svg id="themeIcon" viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </div>
+                <div class="hamburger-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="backdrop-overlay" id="mobileOverlay"></div>
+    <div class="mobile-nav" id="mobileNavDrawer">
+        <div class="mobile-nav-header">
+            <a href="/" aria-label="AulaPlay, portal independiente de juegos y aprendizaje" style="display: flex; align-items: center; text-decoration: none;"><img src="/assets/images/aulaplay-logo.svg" alt="AulaPlay" style="max-height: 42px; width: 184px; display: block;">
+            </a>
+        </div>
+
+        <ul class="mobile-menu">
+            <li><a href="/" class="mobile-link">Home</a></li>
+            <li><a href="/action-games/" class="mobile-link">Action</a></li>
+            <li><a href="/adventure-games/" class="mobile-link">Adventure</a></li>
+            <li><a href="/sports-games/" class="mobile-link">Sports</a></li>
+            <li><a href="/2-player-games/" class="mobile-link">2 Player</a></li>
+            <li><a href="/io-games/" class="mobile-link">.IO Games</a></li>
+            <li><a href="/minecraft/" class="mobile-link">Minecraft</a></li>
+            
+        </ul>
+    </div>
+
+    <main class="main-container">
+        <section class="left-content">
+            <div class="game-player-wrapper" id="gamePlayerWrapper">
+                <div class="iframe-container" id="iframeContainer">
+                    <div class="play-overlay" id="playOverlay">
+                        
+                        <div class="play-overlay-bg" id="playOverlayBg" style="background-image: url('/assets/media/game-thumbnails/blumgi-ball.webp');"></div>
+                        
+                        <div class="play-overlay-content">
+                            <h2 class="play-overlay-title" id="playOverlayTitle">Blumgi Ball</h2>
+                            <button class="play-now-btn" id="playNowBtn">
+                                <svg viewBox="0 0 24 24"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                <span>PLAY NOW</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="player-loader hidden" id="playerLoader">
+                        <div class="loader-spinner"></div>
+                        <div class="loader-pulse"></div>
+                        <p style="color: var(--text-secondary); margin-top: 1rem; font-size: 0.9rem; font-weight: 500;">Securing connection...</p>
+                    </div>
+
+<iframe id="gameIframe" src="" data-src="https://st.8games.net/10/igra-bezumnyj-dank/" allowfullscreen="" sandbox="allow-scripts allow-same-origin"></iframe>
+                </div>
+                
+                <div class="player-control-bar">
+                    <div class="player-game-title">
+                        <h1 id="playerGameTitle">Blumgi Ball</h1>
+                    </div>
+                    <div class="player-controls">
+                        <button class="player-btn" id="favoriteToggleBtn">
+                            <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            <span id="favoriteBtnText">Favorite</span>
+                        </button>
+                        <button class="player-btn" id="fullscreenToggleBtn">
+                            <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg>
+                            <span>Fullscreen</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="display-space space-970x90">
+                <!-- /22996301119/aulaplay.local/aulaplay.local_desktop_main_top -->
+<div id="div-gpt-ad-1794480050212-0" style="min-width: 300px; min-height: 90px;" data-google-query-id="CKPP0PfVlpgDFQXojgkdEIM1eQ">
+  <script type="text/javascript">
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1794480050212-0'); });
+  </script>
+<div id="google_ads_iframe_/22996301119/aulaplay.local/aulaplay.local_desktop_main_top_0__container__" style="border: 0pt; width: 300px; height: 0px;"></div></div>
+            </div>
+
+<div class="related-games-section">
+                <div class="section-header">
+   <h2 class="section-title" id="gridSectionTitle">Games You May Also Like to Play</h2>
+                </div>
+                <div class="related-grid" id="relatedGamesGrid">
+
+<a href="/games/fnaf-shooter/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/fnaf-shooter.webp" alt="FNAF Shooter" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">FNAF Shooter</h3></div>
+</div>
+</a>
+<a href="/games/mine-shooter-2/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/mine-shooter-2.webp" alt="Mine Shooter 2" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Mine Shooter 2</h3></div>
+</div>
+</a>
+<a href="/games/idle-breakout/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/idle-breakout.webp" alt="Idle Breakout" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Idle Breakout</h3></div>
+</div>
+</a>
+<a href="/games/drift-hunters/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/drift-hunters.webp" alt="Drift Hunters" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Drift Hunters</h3></div>
+</div>
+</a>
+<a href="/games/stickman-clash/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/stickman-clash.webp" alt="Stickman Clash" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Stickman Clash</h3></div>
+</div>
+</a>
+<a href="/games/raft-wars/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/raft-wars.webp" alt="Raft Wars" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Raft Wars</h3></div>
+</div>
+</a>
+<a href="/games/golf-hit/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/golf-hit.webp" alt="Golf Hit" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Golf Hit</h3></div>
+</div>
+</a>
+<a href="/games/sprunki/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/sprunki.webp" alt="Sprunki" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Sprunki</h3></div>
+</div>
+</a>
+<a href="/games/vex-9/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/vex-9.webp" alt="Vex 9" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Vex 9</h3></div>
+</div>
+</a>
+<a href="/games/rocketgoal-io/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/rocketgoal-io.webp" alt="RocketGoal.IO" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">RocketGoal.IO</h3></div>
+</div>
+</a>
+<a href="/games/word-search/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/word-search.webp" alt="Word Search" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Word Search</h3></div>
+</div>
+</a>
+<a href="/games/creepy-granny-scream-scary-freddy/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/creepy-granny-scream-scary-freddy.webp" alt="Creepy Granny Scream: Scary Freddy" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Creepy Granny Scream: Scary Freddy</h3></div>
+</div>
+</a>
+<a href="/games/chill-guy-clicker/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/chill-guy-clicker.webp" alt="Chill Guy Clicker" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Chill Guy Clicker</h3></div>
+</div>
+</a>
+<a href="/games/bulletstorm/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/bulletstorm.webp" alt="Bulletstorm" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Bulletstorm</h3></div>
+</div>
+</a>
+<a href="/games/geometry-dash-2/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/geometry-dash-2.webp" alt="Geometry Dash 2" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Geometry Dash 2</h3></div>
+</div>
+</a>
+<a href="/games/crazy-cars/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/crazy-cars.webp" alt="Crazy Cars" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Crazy Cars</h3></div>
+</div>
+</a>
+<a href="/games/toilets-worms-shooter/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/toilets-worms-shooter.webp" alt="Toilets Worms Shooter" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Toilets Worms Shooter</h3></div>
+</div>
+</a>
+<a href="/games/bloxorz/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/bloxorz.webp" alt="Bloxorz" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Bloxorz</h3></div>
+</div>
+</a>
+<a href="/games/stickman-kombat-2d/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/stickman-kombat-2d.webp" alt="Stickman Kombat 2D" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Stickman Kombat 2D</h3></div>
+</div>
+</a>
+<a href="/games/veck-io/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/veck-io.webp" alt="Veck.IO" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Veck.IO</h3></div>
+</div>
+</a>
+<a href="/games/bloodmoney-remake/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/bloodmoney-remake.webp" alt="Bloodmoney Remake" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Bloodmoney Remake</h3></div>
+</div>
+</a>
+<a href="/games/basketball-legends/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/basketball-legends.webp" alt="Basketball Legends" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Basketball Legends</h3></div>
+</div>
+</a>
+<a href="/games/space-wars-battleground/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/space-wars-battleground.webp" alt="Space Wars Battleground" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Space Wars Battleground</h3></div>
+</div>
+</a>
+<a href="/games/geometry-vibes/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/geometry-vibes.webp" alt="Geometry Vibes" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Geometry Vibes</h3></div>
+</div>
+</a>
+<a href="/games/funny-battle-simulator-2/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/funny-battle-simulator-2.webp" alt="Funny Battle Simulator 2" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Funny Battle Simulator 2</h3></div>
+</div>
+</a>
+<a href="/games/downhill-racer/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/downhill-racer.webp" alt="Downhill Racer" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Downhill Racer</h3></div>
+</div>
+</a>
+<a href="/games/geometry-dash-bloodbath/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/geometry-dash-bloodbath.webp" alt="Geometry Dash Bloodbath" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Geometry Dash Bloodbath</h3></div>
+</div>
+</a>
+<a href="/games/vex-8/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/vex-8.webp" alt="Vex 8" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Vex 8</h3></div>
+</div>
+</a>
+<a href="/games/hole-io/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/hole-io.webp" alt="Hole.IO" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Hole.IO</h3></div>
+</div>
+</a>
+<a href="/games/minigiants-io/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/minigiants-io.webp" alt="Minigiants.IO" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Minigiants.IO</h3></div>
+</div>
+</a>
+
+                </div>
+            </div>
+<div class="game-info info-description">
+                <div class="info-header">
+                    <div class="info-title-area">
+<h2 id="infoTitle">About Blumgi Ball</h2>
+</div></div>
+
+<p>Blumgi Ball is a fun physics-based sports game where you control a small character and use a ball to complete different challenges. The main goal is to get the ball into the target while moving through colorful stages. Instead of playing a normal basketball match, you need to aim your throws and use the level layout to your advantage. Walls, platforms, gaps, and other objects can affect the path of the ball.</p>
+
+<p>Each stage gives you a new setup to solve. You may need to throw the ball directly at a target or bounce it off walls to reach a spot that is not easy to hit. The ball follows the physics of the game, so the angle and strength of each throw matter. Some levels are simple and let you learn the controls, while later ones require more careful aiming. You can experiment with different shots until you find a way through the stage.</p>
+
+<p>As you progress, the levels introduce new layouts and more obstacles. You need to think about where the ball will travel before making a throw. A shot that misses the target can also give you useful information about the right angle for your next attempt. Blumgi Ball is a good choice if you enjoy casual sports games with puzzle elements. Its simple idea, colorful presentation, and short stages make it easy to play for a few minutes or keep going through the full set of challenges.</p>
+
+<h3>How to Play</h3>
+
+<p>Use the controls to aim the ball and choose the strength of your throw. Line up your shot with the target, then release the ball. Pay attention to walls and other objects because you may need to bounce the ball before it reaches the goal. Try different angles when a direct shot does not work.</p>
+
+<p>Before each throw, look at the full level and think about where the ball will travel. Some targets are easier to reach by using the surrounding platforms or walls. Do not worry if your first attempt misses. Adjust the angle or power and try again. Complete the target in each stage to move forward and discover new challenges.</p>
+
+<h3>More Games You Can Try</h3>
+
+<p>If you enjoyed this game, you may also like these games:</p>
+
+<ul> <li><a href="/games/basketball-orbit/">Basketball Orbit</a></li> <li><a href="/games/basketball-stars/">Basketball Stars</a></li> <li><a href="/games/orbit-kick/">Orbit Kick</a></li> <li><a href="/games/3d-free-kick/">3D Free Kick</a></li> </ul>
+
+</div>
+        </section>
+
+        <aside class="right-sidebar">
+            <div class="display-space space-300x250">
+<!-- /22996301119/aulaplay.local/aulaplay.local_desktop_right_side_top -->
+<div id="div-gpt-ad-1794480308900-0" style="min-width: 300px; min-height: 250px;" data-google-query-id="CKTP0PfVlpgDFQXojgkdEIM1eQ">
+  <script type="text/javascript">
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1794480308900-0'); });
+  </script>
+<div id="google_ads_iframe_/22996301119/aulaplay.local/aulaplay.local_desktop_right_side_top_0__container__" style="border: 0pt; width: 300px; height: 0px;"></div></div>
+</div>
+            <div class="sidebar-grid">
+
+<a href="/games/granny-horror-2/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/granny-horror-2.webp" alt="Granny Horror 2" class="thumbnail-img" src="/assets/media/game-thumbnails/granny-horror-2.webp"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Granny Horror 2</h3></div>
+</div>
+</a>
+<a href="/games/wacky-flip/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/wacky-flip.webp" alt="Wacky Flip" class="thumbnail-img" src="/assets/media/game-thumbnails/wacky-flip.webp"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Wacky Flip</h3></div>
+</div>
+</a>
+<a href="/games/football-bros/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/football-bros.webp" alt="Football Bros" class="thumbnail-img" src="/assets/media/game-thumbnails/football-bros.webp"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Football Bros</h3></div>
+</div>
+</a>
+<a href="/games/99nights/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/99nights.webp" alt="99 Nights (Bloxd.IO)" class="thumbnail-img" src="/assets/media/game-thumbnails/99nights.webp"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">99 Nights (Bloxd.IO)</h3></div>
+</div>
+</a>
+<a href="/games/block-breaker/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/block-breaker.webp" alt="Block Breaker" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Block Breaker</h3></div>
+</div>
+</a>
+<a href="/games/level-devil/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/level-devil.webp" alt="Level Devil" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Level Devil</h3></div>
+</div>
+</a>
+<a href="/games/crossy-road/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/crossy-road.webp" alt="Crossy Road" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Crossy Road</h3></div>
+</div>
+</a>
+<a href="/games/curve-rush-2/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/curve-rush-2.webp" alt="Curve Rush 2" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Curve Rush 2</h3></div>
+</div>
+</a>
+<a href="/games/uno-online/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/uno-online.webp" alt="UNO Online" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">UNO Online</h3></div>
+</div>
+</a>
+<a href="/games/escape-road-city-2/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/escape-road-city-2.webp" alt="Escape Road City 2" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Escape Road City 2</h3></div>
+</div>
+</a>
+<a href="/games/geoguessr/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/geoguessr.webp" alt="Geoguessr" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Geoguessr</h3></div>
+</div>
+</a>
+<a href="/games/blockpost/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/blockpost.webp" alt="Blockpost" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Blockpost</h3></div>
+</div>
+</a>
+<a href="/games/indoor-soccer/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/indoor-soccer.webp" alt="Indoor Soccer" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Indoor Soccer</h3></div>
+</div>
+</a>
+<a href="/games/shadow-fight-2/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/shadow-fight-2.webp" alt="Shadow Fight 2" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Shadow Fight 2</h3></div>
+</div>
+</a>
+            </div>
+            <div class="sidebar-grid">
+
+<a href="/games/kour-io/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/kour-io.webp" alt="Kour.IO" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Kour.IO</h3></div>
+</div>
+</a>
+<a href="/games/g-switch-3/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/g-switch-3.webp" alt="G Switch 3" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">G Switch 3</h3></div>
+</div>
+</a>
+<a href="/games/geometry-dash-lite/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/geometry-dash-lite.webp" alt="Geometry Dash Lite" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Geometry Dash Lite</h3></div>
+</div>
+</a>
+<a href="/games/moto-x3m-delight/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/moto-x3m-delight.webp" alt="Moto X3M Delight" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Moto X3M Delight</h3></div>
+</div>
+</a>
+<a href="/games/speed-stars/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/speed-stars.webp" alt="Speed Stars" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Speed Stars</h3></div>
+</div>
+</a>
+<a href="/games/geometry-vibes-3d/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="/assets/media/game-thumbnails/geometry-vibes-3d.webp" alt="Geometry Vibes 3D" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Geometry Vibes 3D</h3></div>
+</div>
+</a>
+
+            </div>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-column">
+                <a href="/" aria-label="AulaPlay, portal independiente de juegos y aprendizaje" style="display: flex; align-items: center; text-decoration: none;"><img src="/assets/images/aulaplay-logo.svg" alt="AulaPlay" style="max-height: 42px; width: 184px; display: block;">
+            </a>
+                <p class="footer-desc">Discover a world of free online games on AulaPlay, a popular collection of browser games across many categories.</p>
+
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-title">Popular Games</h3>
+                <ul class="footer-links">
+                    <li><a href="/games/infinite-craft/" class="footer-link" data-footer-nav="new">Infinite Craft</a></li>
+                    <li><a href="/games/happy-wheels/" class="footer-link" data-footer-nav="new">Happy Wheels</a></li>
+                    <li><a href="/games/granny-horror-2/" class="footer-link" data-footer-nav="new">Granny Horror 2</a></li>
+                    <li><a href="/games/crossy-road/" class="footer-link" data-footer-nav="new">Crossy Road</a></li>
+                    <li><a href="/games/ragdoll-hit/" class="footer-link" data-footer-nav="new">Ragdoll Hit</a></li>
+                    <li><a href="/games/space-waves/" class="footer-link" data-footer-nav="new">Space Waves</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3 class="footer-title">Trending Games</h3>
+                <ul class="footer-links">
+                    <li><a href="/games/stone-grass-mowing-simulator/" class="footer-link" data-footer-nav="new">Stone Grass: Mowing Simulator</a></li>
+                    <li><a href="/games/run-3d/" class="footer-link" data-footer-nav="new">RUN 3D</a></li>
+                    <li><a href="/games/cowboy-safari/" class="footer-link" data-footer-nav="new">Cowboy Safari</a></li>
+                    <li><a href="/games/indoor-soccer/" class="footer-link" data-footer-nav="new">Indoor Soccer</a></li>
+                    <li><a href="/games/slope-2/" class="footer-link" data-footer-nav="new">Slope 2</a></li>
+                    <li><a href="/games/block-blast/" class="footer-link" data-footer-nav="new">Block Blast</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3 class="footer-title">Categories</h3>
+                <ul class="footer-links" id="footerCategoriesMenu">
+                    <li><a href="/action-games/" class="footer-link" data-nav="new">Action</a></li>
+                    <li><a href="/adventure-games/" class="footer-link" data-nav="popular">Adventure</a></li>
+                    <li><a href="/sports-games/" class="footer-link" data-nav="popular">Sports</a></li>
+                    <li><a href="/2-player-games/" class="footer-link" data-nav="popular">2 Player</a></li>
+                    <li><a href="/io-games/" class="footer-link" data-nav="popular">.IO Games</a></li>
+                    <li><a href="/minecraft/" class="footer-link" data-nav="popular">Minecraft</a></li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 <a href="/">AulaPlay</a>. All game copyrights are reserved by their respective owners and publishers.</p>
+            <div class="footer-bottom-links">
+                <a href="/contact/" class="footer-bottom-link" id="contactFooterBtn">Contact Us</a>
+                <a href="/privacy-policy/" class="footer-bottom-link">Privacy Policy</a>
+                <a href="/terms/" class="footer-bottom-link">Terms of Service</a>
+                <a href="/copyrights/" class="footer-bottom-link" id="contactFooterBtn">DMCA</a>
+            </div>
+        </div>
+    </footer>
+
+<script defer="" src="/static/js/script.js" type="text/javascript"></script>
+<script defer="" src="/static/js/lazyload.js" type="text/javascript"></script>
+
+
+
+</body></html>

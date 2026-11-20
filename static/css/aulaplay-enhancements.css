@@ -1,0 +1,48 @@
+/* AulaPlay visual refinements — additive layer, preserving the original layout. */
+:root {
+  color-scheme: light;
+  --ap-green: #16834b;
+  --ap-green-dark: #0f6338;
+  --ap-ink: #17251d;
+  --ap-muted: #68776e;
+  --ap-line: #e4ebe6;
+  --ap-soft: #f4f8f5;
+}
+html { scroll-behavior: smooth; }
+body { color: var(--ap-ink); background: #f7faf8; }
+body > div:first-child {
+  letter-spacing: .015em;
+  font-size: 12px !important;
+}
+.header {
+  background: rgba(255,255,255,.96) !important;
+  border-bottom: 1px solid var(--ap-line) !important;
+  box-shadow: 0 5px 22px rgba(20,55,35,.045);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(12px);
+}
+.header-container { max-width: 1440px; }
+a { transition: color .18s ease, background-color .18s ease, transform .18s ease; }
+button, .button, a.button { transition: transform .18s ease, box-shadow .18s ease; }
+button:hover, .button:hover, a.button:hover { transform: translateY(-1px); }
+input, select { border-radius: 12px !important; }
+:focus-visible { outline: 3px solid rgba(22,131,75,.35) !important; outline-offset: 2px; }
+img { max-width: 100%; }
+/* A cleaner card treatment without changing game links or embeds. */
+.game-item, .game-card, .category-card, .post-item, .card {
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid rgba(222,233,225,.9);
+  box-shadow: 0 5px 18px rgba(25,65,42,.055);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.game-item:hover, .game-card:hover, .category-card:hover, .post-item:hover, .card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(25,65,42,.11);
+}
+footer { border-top: 1px solid var(--ap-line); }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

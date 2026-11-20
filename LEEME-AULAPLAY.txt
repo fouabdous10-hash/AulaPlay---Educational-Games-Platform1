@@ -1,0 +1,20 @@
+AULAPLAY — COPIA INDEPENDIENTE
+
+INICIAR EN WINDOWS
+1. Instala Node.js LTS (versión 18 o superior): https://nodejs.org/
+2. Descomprime la carpeta completa.
+3. Haz doble clic en starter.bat.
+4. Se abrirá el navegador en http://localhost:4173.
+5. Deja abierta la ventana negra mientras uses la web. Pulsa Ctrl+C para detenerla.
+
+No hace falta ejecutar npm install: el servidor usa únicamente módulos incluidos en Node.js.
+También puedes abrir una terminal en esta carpeta y ejecutar: npm start
+
+HTTP / HTTPS
+El servidor local utiliza HTTP en localhost. HTTPS local requiere un certificado TLS de confianza instalado/configurado en el equipo; no se activa automáticamente porque un certificado improvisado genera avisos de seguridad. Para publicar la web en Internet, utiliza un alojamiento autorizado con HTTPS.
+
+ALCANCE Y ACCESO
+El servidor está limitado a 127.0.0.1 (solo este ordenador). No crea un proxy, túnel ni método para saltarse filtros de red. Cambiar el nombre o el icono no evita bloqueos de webs, juegos o servidores externos. Para utilizarla en la red del centro, el administrador debe autorizar el dominio y los recursos necesarios.
+
+La copia es principalmente estática. Algunos juegos dependen de sus servidores originales, APIs, cookies o conexión externa y pueden no funcionar en local. Reutiliza y publica solo recursos para los que tengas derechos o permiso.
+El ZIP original no se modifica.
