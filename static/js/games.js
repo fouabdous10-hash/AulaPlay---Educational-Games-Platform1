@@ -1,5 +1,91 @@
 const games = [
 
+`<a href="/games/car_parking_simulator_3d/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="https://cdn2.y8.com/cloudimage/480115/file/w380h285_retina_webp-0c7a0bfafae8da610453be907fd5e7a8.webp" alt="Car Parking 3D" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Car Parking 3D</h3></div>
+</div>
+</a>`,
+`<a href="/games/cyber-city-driver/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="https://cdn2.y8.com/cloudimage/83851/file/w380h285_retina_webp-34268918e74a97febe08bddaee4bcc21.webp" alt="Cyber City Driver" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Cyber City Driver</h3></div>
+</div>
+</a>`,
+`<a href="/games/dirt-bike-stunts-3d/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="https://cdn2.y8.com/cloudimage/250131/file/w380h285_retina_webp-dbf4bb821f0f21746f19a4507ddb6100.webp" alt="Dirt Bike Stunts 3D" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Dirt Bike Stunts 3D</h3></div>
+</div>
+</a>`,
+`<a href="/games/dynamo/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="https://cdn2.y8.com/cloudimage/437451/file/w380h285_retina_webp-e25d5f79688f933c55632186393c90ab.webp" alt="Dynamo" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Dynamo</h3></div>
+</div>
+</a>`,
+`<a href="/games/highway-squad/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="https://cdn2.y8.com/cloudimage/405231/file/w380h285_retina_webp-d2f3bb12ac02f6184ddcb2f93adefc64.webp" alt="Highway Squad" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Highway Squad</h3></div>
+</div>
+</a>`,
+`<a href="/games/obby-supercar-race-on-keyboard/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="https://cdn2.y8.com/cloudimage/420575/file/w380h285_retina_webp-8608e16ebc626148ef8b6358dce3d1cf.webp" alt="Obby: Supercar Race on Keyboard" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Obby: Supercar Race on Keyboard</h3></div>
+</div>
+</a>`,
+`<a href="/games/race-on-cars-in-moscow/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="https://cdn2.y8.com/cloudimage/386493/file/w380h285_retina_webp-17b4fe5a9c445afefafc9aa48c7d4cb6.webp" alt="Race On Cars in Moscow" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Race On Cars in Moscow</h3></div>
+</div>
+</a>`,
+`<a href="/games/scamper-karts/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="https://cdn2.y8.com/cloudimage/464215/file/w380h285_retina_webp-d31fcebb3d16df25d1507aa9899112e8.webp" alt="Scamper Karts" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Scamper Karts</h3></div>
+</div>
+</a>`,
+`<a href="/games/traffic-jam-3d/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="https://cdn2.y8.com/cloudimage/385651/file/w380h285_retina_webp-ea8992c972e9b8e11f6828e1a9a2fc44.webp" alt="Traffic Jam 3D" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Traffic Jam 3D</h3></div>
+</div>
+</a>`,
+`<a href="/games/turbo-moto-racer/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="https://cdn2.y8.com/cloudimage/224031/file/w380h285_retina_webp-8ac1c23ef43409ed98b16f8a76dba905.webp" alt="Turbo Moto Racer" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Turbo Moto Racer</h3></div>
+</div>
+</a>`,
+`<a href="/games/uphill-bus-simulator-3d/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="https://cdn2.y8.com/cloudimage/73755/file/w380h285_retina_webp-954e505ce9f738b218d05904b49836c3.webp" alt="Uphill Bus Simulator 3D" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Uphill Bus Simulator 3D</h3></div>
+</div>
+</a>`,
+`<a href="/games/zoober/"><div class="grid-card">
+<div class="thumbnail-container">
+<img data-src="https://cdn2.y8.com/cloudimage/441933/file/w380h285_retina_webp-e6d9fcb81ee79109da9a04fb5999c2da.webp" alt="Zoober" class="thumbnail-img lazy"></div>
+<div class="grid-card-info">
+<h3 class="grid-card-title">Zoober</h3></div>
+</div>
+</a>`,
+
+
 `<a href="/games/1v1-lol/"><div class="grid-card">
 <div class="thumbnail-container">
 <img data-src="/assets/media/game-thumbnails/1v1-lol.webp" alt="1V1.LOL" class="thumbnail-img lazy"></div>
